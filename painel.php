@@ -292,7 +292,7 @@ if (!isset($_SESSION['id_usuario'])) {
 		</div>
 
 		<footer class="footer">
-			© System by Caio Santos - Version 0.20.11.22 Lambda | Theme by Wrappixel
+			© System by Caio Santos - Version 1.0 Lambda | Theme by Wrappixel
 		</footer>
 
 		</div>
