@@ -1,0 +1,33 @@
+/*
+Template Name: Admin Template
+Author: Wrappixel
+
+File: scss
+*/
+
+@import '../variable';
+
+/*******************
+list and media
+******************/
+
+.list-group a.list-group-item:hover {
+    background: $gray-200;
+}
+
+.list-group-item.active,
+.list-group .list-group-item.active:hover {
+    background: $themecolor;
+    border-color: $themecolor;
+}
+
+.list-group-item.disabled {
+    color: $text-muted;
+    background: $gray-200;
+}
+
+.media {
+    border: 1px solid $border-color;
+    margin-bottom: 10px;
+    padding: 15px;
+}

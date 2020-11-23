@@ -1,0 +1,100 @@
+// Green colors
+.skin-default-dark {
+    /*Theme Colors*/
+    $themecolor: #009efb;
+    $themecolor-dark: #028ee1;
+    $topbar: #fff;
+    $sidebar: #2b2f3a;
+    $sidebar-alt:#1f2023;
+    $sidebar-text: #8991a9;
+    $sidebar-icons: #7f879b; 
+    // Topbar
+    .topbar {
+        background: $topbar;
+        .navbar-dark .navbar-nav .nav-link{
+            color:$gray-500;
+        }
+        
+    }
+    //Sidebar
+    .sidebar-nav {
+        ul li a {
+            &.active,
+            &:hover {
+                color: $themecolor;
+                i {
+                    color: $themecolor;
+                }
+            }
+        }
+        > ul > li {
+            &.active > a {
+                color: $themecolor;
+                i {
+                    color: $themecolor;
+                }
+            }
+        }
+    }
+    
+    //Bread-crumb
+    .page-titles .breadcrumb .breadcrumb-item.active{
+        color: $themecolor;
+    }
+    
+    // Sidebar dark
+    
+    .topbar{
+        .top-navbar .navbar-header .navbar-brand .dark-logo {
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .top-navbar .navbar-header .navbar-brand .light-logo {
+            display: none;
+        }
+    }    
+    .left-sidebar {
+        background: $sidebar;
+        .user-pro-body{
+            a.link{
+                color:$sidebar-text;
+            }
+        }
+        .nav-text-box{
+            border-color:transparent;
+            background:rgba(0, 0, 0, 0.3); 
+        }
+        .sidebar-nav>ul>li>a, .sidebar-nav ul li a {
+            color:$sidebar-text;
+            transition: 0.1s ease-in;
+            i{
+                color:$sidebar-icons;
+            }
+            &:hover i, &:hover{
+               color:$white; 
+            }
+            &.active, &.active i{
+                color:$white;
+            }
+        } 
+        .sidebar-nav>ul>li.selected > a{
+            color: $white;
+            i {
+                color: $white;
+            }
+        }
+        .sidebar-nav ul li ul{
+            background: rgba(0,0,0,.2);
+        }
+    }
+    .ps>.ps__scrollbar-y-rail>.ps__scrollbar-y {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    @media (min-width: 768px){
+        &.mini-sidebar .sidebar-nav #sidebarnav > li > ul, &.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a{
+            background: $sidebar-alt;
+        }
+        
+    }
+    
+}

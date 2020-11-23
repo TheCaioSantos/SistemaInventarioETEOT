@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Cambo');
+
+.cabecalho {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.titcab {
+    font-family: 'Cambo', serif;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    width: 82%;
+    line-height: 70px;
+}
+
+.imgcab {
+    width: 90px;
+    float: left;
+}
+
+.titulorel {
+    background: #eee;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.referencia {
+    padding: 0 10px 5px;
+    font-family: 'Arial';
+}
+
+h2, h4 {
+    margin: 5px !important;
+    padding: 0 !important;
+}
+
+.ref1{
+    width: 30%;
+    float: left;
+}
+
+.ref2 {
+    width: 68%;
+    float: right;
+    text-align: left;
+}
+
+.dados {
+    height: 66%;
+    max-height: 67%;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.fontedados {
+    font-size: 12px !important;
+    font-family: 'Arial';
+}
+
+.rodape {
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    font-size: 10px !important;
+    font-family: 'Arial';
+}
+
+.grupoeteot {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background: #ddd;
+    font-weight: bold;
+}
